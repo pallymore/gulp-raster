@@ -60,8 +60,8 @@ Set output file format, png/jpg are available.
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
 
-[npm-url]: https://npmjs.org/package/gulp-raster
-[npm-image]: https://badge.fury.io/js/gulp-raster.png
+[npm-url]: https://npmjs.org/package/gulp-raster-update
+[npm-image]: https://badge.fury.io/js/gulp-raster-update.png
 
-[depstat-url]: https://david-dm.org/otouto/gulp-raster
-[depstat-image]: https://david-dm.org/otouto/gulp-raster.png
+[depstat-url]: https://david-dm.org/pallymore/gulp-raster
+[depstat-image]: https://david-dm.org/pallymore/gulp-raster.png
