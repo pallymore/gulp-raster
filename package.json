@@ -9,8 +9,8 @@
     "convert",
     "rasterize"
   ],
-  "homepage": "https://github.com/Otouto/gulp-raster",
-  "bugs": "https://github.com/Otouto/gulp-raster/issues",
+  "homepage": "https://github.com/pallymore/gulp-raster",
+  "bugs": "https://github.com/pallymore/gulp-raster/issues",
   "author": {
     "name": "Dmitry Lutsik",
     "email": "otoyto@gmail.com",
