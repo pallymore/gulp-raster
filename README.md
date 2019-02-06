@@ -1,6 +1,11 @@
 # gulp-raster
 [![NPM version][npm-image]][npm-url] [![Dependency Status][depstat-image]][depstat-url]
 
+## This is a fork.
+
+This is a fork from Otouto/gulp-raster. The original repo seems to have been abandoned.
+This repo brings most of the packages up to date (Gulp 4).
+
 > Rasterization plugin for [gulp](https://github.com/wearefractal/gulp). It`s build on phantomjs, but, in contrast to svg2png, does not deal with fs(creating or reading tmp files).
 
 ## Usage

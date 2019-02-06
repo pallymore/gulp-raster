@@ -1,7 +1,7 @@
 {
   "name": "gulp-raster",
   "version": "0.2.0",
-  "description": "A rasterization plugin for Gulp",
+  "description": "A rasterization plugin for Gulp. Forked from Otouto/gulp-raster",
   "keywords": [
     "gulpplugin",
     "svg",
