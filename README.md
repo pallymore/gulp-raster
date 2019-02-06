@@ -10,16 +10,16 @@ This repo brings most of the packages up to date (Gulp 4).
 
 ## Usage
 
-First, install `gulp-raster` as a development dependency:
+First, install `gulp-raster-update` as a development dependency:
 
 ```shell
-npm i -S gulp-raster
+npm i -S gulp-raster-update
 ```
 
 Then, add it to your `gulpfile.js`:
 
 ```javascript
-var raster = require('gulp-raster');
+var raster = require('gulp-raster-update');
 var rename = require('gulp-rename');
 
 gulp.src('./src/**/svg/*.svg')
@@ -31,7 +31,7 @@ gulp.src('./src/**/svg/*.svg')
 You also can specify scale and file format. Let`s say you want get icon set for retina:
 
 ```javascript
-var raster = require('gulp-raster');
+var raster = require('gulp-raster-update');
 var rename = require('gulp-rename');
 
 gulp.src('./src/**/svg/*.svg')
