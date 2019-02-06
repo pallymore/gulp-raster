@@ -1,7 +1,7 @@
 'use strict';
 
 var fs        = require('fs'),
-    gutil     = require('gulp-util');
+    File      = require('vinyl');
 
 exports.isPNG = function isPNG (buffer) {
     var mnumber = '89504E470D0A1A0A'; // magic number of a PNG
@@ -12,7 +12,7 @@ exports.isPNG = function isPNG (buffer) {
 };
 
 exports.createTestFile = function createTestFile () {
-    return new gutil.File({
+    return new File({
         cwd:  './test/assets/',
         base: './test/assets/',
         path: './test/assets/2gis.svg',

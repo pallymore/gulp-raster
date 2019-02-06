@@ -1,8 +1,7 @@
 var through = require('through2'),
-    gutil = require('gulp-util'),
-    rasterize = require('./lib/converter'),
-    PluginError = gutil.PluginError,
-    phridge = require('phridge');
+    PluginError = require('plugin-error'),
+    phridge = require('phridge'),
+    rasterize = require('./lib/converter');
 
 const PLUGIN_NAME = 'gulp-raster';
 
