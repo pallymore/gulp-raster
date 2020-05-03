@@ -1,30 +1,19 @@
-'use strict';
+"use strict";
 
-var gulp = require('gulp'),
-    jshint = require('gulp-jshint'),
-    mocha = require('gulp-mocha'),
-    stylish = require('jshint-stylish');
-
-gulp.task('jshint', function () {
-  // Minify and copy all JavaScript (except vendor scripts)
-  return gulp.src(['./lib/**/*.js', './index.js'])
-    .pipe(jshint())
-    .pipe(jshint.reporter(stylish));
-});
+var gulp = require("gulp"),
+  mocha = require("gulp-mocha");
 
 // Copy all static images
-gulp.task('mocha', function () {
-  return gulp.src('./test/*.js')
-    .pipe(mocha({
-      globals: ['chai'],
+gulp.task("mocha", function () {
+  return gulp.src("./test/*.js").pipe(
+    mocha({
+      globals: ["chai"],
       timeout: 6000,
       ignoreLeaks: false,
-      ui: 'bdd',
-      reporter: 'spec'
-    }));
+      ui: "bdd",
+      reporter: "spec",
+    })
+  );
 });
 
-gulp.task('test', gulp.series('mocha'));
-
-// The default task (called when you run `gulp` from cli)
-gulp.task('default', gulp.series('jshint', 'mocha'));
+gulp.task("test", gulp.series("mocha"));
